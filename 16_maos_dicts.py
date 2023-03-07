@@ -19,7 +19,7 @@ items = [
   }
 ]
 
-# Usar map para pasar de lista de dicts a lista de numeros
+# Usar map para pasar de lista de dicts a lista de precios (integrers)
 prices = list(map(lambda item: item['precio'], items))
 print(prices) # [100,300,200]
 jumpline()
